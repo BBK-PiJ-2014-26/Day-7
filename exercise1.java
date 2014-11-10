@@ -7,8 +7,12 @@ public class exercise1 {
 			Spy spy3 = new Spy(476);
 			Spy spy4 = new Spy(4125);
 			Spy spy5 = new Spy(1);
-			Spy spy6 = new Spy(007);
+			Spy spy6 = new Spy(7);
 			Spy spy7 = new Spy(9742);
 			Spy spy8 = new Spy(34);
+			spy7.die();
+			spy3.die();
+			Spy spy9 = new Spy(14);
+			spy1.die();
 	}
 }
