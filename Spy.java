@@ -9,4 +9,10 @@ public class Spy {
 		System.out.println("Spy ID is " + spyID);
 		System.out.println("Total number of Spys so far is ... " + spyCount);
 	}
+
+	public void die(int spyID) {
+				spyCount--;
+				System.out.println("Spy " + spyID + " has been detected and eliminated");
+				System.out.println("Total number of Spys so far is ... " + spyCount);
+	}
 }
